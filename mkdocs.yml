@@ -1,0 +1,37 @@
+site_name: Maths Notes
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:   # enables LaTeX delimiters in Markdown
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
+  - js/math.js
+
+nav:
+  - Accueil: index.md
+  - Algèbre linéaire:
+      - Bases et dimension: algebra/bases.md
+      - Déterminants: algebra/determinants.md
+  - Analyse:
+      - Suites et séries: analysis/sequences.md
+  - Probabilités:
+      - Lois usuelles: proba/laws.md
