@@ -8,6 +8,6 @@ $$\int_0^1 x^n\,dx=\frac{1}{n+1}\quad (n>-1).$$
     Classez vos chapitres par dossier (`algebra/`, `analysis/`, `proba/`) pour
     une navigation propre.
 
-- [Algèbre linéaire](algebra/bases.md)
-- [Analyse](analysis/sequences.md)
-- [Probabilités](proba/laws.md)
+- [Algèbre linéaire](algebre/bases.md)
+- [Analyse](analyse/suites.md)
+- [Probabilités](proba/lois.md)

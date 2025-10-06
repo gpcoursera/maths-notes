@@ -29,9 +29,10 @@ extra_javascript:
 nav:
   - Accueil: index.md
   - Algèbre linéaire:
-      - Bases et dimension: algebra/bases.md
-      - Déterminants: algebra/determinants.md
+      - Bases et dimension: algebre/bases.md
+      - Déterminants: algebre/determinants.md
+      - Révisions Algèbre Linéaire: algebre/revisions-algebre-lineaire.md   # <— new
   - Analyse:
-      - Suites et séries: analysis/sequences.md
+      - Suites et séries: analyse/suites.md
   - Probabilités:
-      - Lois usuelles: proba/laws.md
+      - Lois usuelles: proba/lois.md

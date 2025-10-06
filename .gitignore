@@ -1,3 +1,5 @@
 .venv/
+.DS_Store
+.git
 site/
 __pycache__/
