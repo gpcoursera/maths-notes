@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../algebra/determinants/">
+        <link rel="prev" href="../determinants/">
       
       
-        <link rel="next" href="../../proba/laws/">
+        <link rel="next" href="../../analyse/suites/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Suites et séries - Maths Notes</title>
+        <title>Révisions Algèbre Linéaire - Maths Notes</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#suites-et-series" class="md-skip">
+        <a href="#revisions-dalgebre-lineaire" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Suites et séries
+              Révisions Algèbre Linéaire
             
           </span>
         </div>
@@ -219,8 +219,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -231,13 +233,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -253,7 +253,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Algèbre linéaire
@@ -267,7 +267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../algebra/bases/" class="md-nav__link">
+      <a href="../bases/" class="md-nav__link">
         
   
   
@@ -290,7 +290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../algebra/determinants/" class="md-nav__link">
+      <a href="../determinants/" class="md-nav__link">
         
   
   
@@ -305,58 +305,6 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    Analyse
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Analyse
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -374,7 +322,169 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Révisions Algèbre Linéaire
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Révisions Algèbre Linéaire
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-reduction-des-endomorphismes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) Réduction des endomorphismes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-theoreme-de-gerstenhaber" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) Théorème de Gerstenhaber
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-theoreme-de-burnside" class="md-nav__link">
+    <span class="md-ellipsis">
+      3) Théorème de Burnside
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-theoreme-de-perronfrobenius" class="md-nav__link">
+    <span class="md-ellipsis">
+      4) Théorème de Perron–Frobenius
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-autres-theoremes-fondamentaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      5) Autres théorèmes fondamentaux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#todo-liens-ressources" class="md-nav__link">
+    <span class="md-ellipsis">
+      TODO (liens &amp; ressources)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Analyse
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Analyse
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analyse/suites/" class="md-nav__link">
         
   
   
@@ -385,7 +495,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -450,7 +559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proba/laws/" class="md-nav__link">
+      <a href="../../proba/lois/" class="md-nav__link">
         
   
   
@@ -489,8 +598,47 @@
 
 
 
-<h1 id="suites-et-series">Suites et séries<a class="headerlink" href="#suites-et-series" title="Permanent link">&para;</a></h1>
-<p>Suite géométrique <span class="arithmatex">\(u_n=u_0 q^n\)</span>. Si <span class="arithmatex">\(|q|&lt;1\)</span>, alors <span class="arithmatex">\(\sum_{n\ge 0} u_0 q^n=\dfrac{u_0}{1-q}\)</span>.</p>
+<h1 id="revisions-dalgebre-lineaire">Révisions d’Algèbre Linéaire<a class="headerlink" href="#revisions-dalgebre-lineaire" title="Permanent link">&para;</a></h1>
+<h2 id="1-reduction-des-endomorphismes">1) Réduction des endomorphismes<a class="headerlink" href="#1-reduction-des-endomorphismes" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>[Gourdon]</strong> <em>Algèbre</em> (2ᵉ éd.), section 4.4 — Jordan / Dunford.</li>
+<li><strong>CCINP MP 2021</strong> — Décomposition de <strong>Dunford</strong>.</li>
+<li><strong>Exercices</strong> sur les décompositions de matrices/endomorphismes (<strong>LU</strong>, <strong>Jordan</strong>, <strong>SVD</strong>, etc.).</li>
+<li><strong>YouTube</strong> — vidéos de <strong>Phil Caldero</strong>.</li>
+<li><strong>[Mansuy]</strong> — (référence à compléter).</li>
+<li><strong>[Grifone]</strong> — (référence à compléter).</li>
+<li><strong>[Tauvel]</strong> — (référence à compléter).</li>
+</ul>
+<h2 id="2-theoreme-de-gerstenhaber">2) Théorème de Gerstenhaber<a class="headerlink" href="#2-theoreme-de-gerstenhaber" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sujet <strong>Mines–Ponts MP 2020</strong>.</li>
+</ul>
+<h2 id="3-theoreme-de-burnside">3) Théorème de Burnside<a class="headerlink" href="#3-theoreme-de-burnside" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Agrégation interne</strong> — (fiche / sujet à préciser).</li>
+<li><strong>Fiche ENS Rennes</strong> — (référence à préciser).</li>
+<li><strong>Exos Oraux X–ENS Algèbre 2</strong> — (sélection à préciser).</li>
+<li><strong>Sujet : Entrelacement de valeurs propres</strong>, <strong>X–ENS MP 2015</strong>.</li>
+</ul>
+<h2 id="4-theoreme-de-perronfrobenius">4) Théorème de Perron–Frobenius<a class="headerlink" href="#4-theoreme-de-perronfrobenius" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>X–ENS PC 2017</strong>.</li>
+</ul>
+<h2 id="5-autres-theoremes-fondamentaux">5) Autres théorèmes fondamentaux<a class="headerlink" href="#5-autres-theoremes-fondamentaux" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Théorème de la <strong>base incomplète</strong>.</li>
+<li>Théorème du <strong>rang</strong>.</li>
+<li><strong>Lemme des noyaux</strong>.</li>
+<li>Théorème de <strong>Cayley–Hamilton</strong>.</li>
+</ul>
+<hr />
+<h2 id="todo-liens-ressources">TODO (liens &amp; ressources)<a class="headerlink" href="#todo-liens-ressources" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ajouter les liens/biblios pour <strong>Gourdon</strong>, <strong>Mansuy</strong>, <strong>Grifone</strong>, <strong>Tauvel</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ajouter les PDFs/énoncés pour <strong>CCINP MP 2021</strong>, <strong>Mines–Ponts MP 2020</strong>, <strong>X–ENS MP 2015</strong>, <strong>X–ENS PC 2017</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Lier une liste d’exercices (LU, Jordan, SVD).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Intégrer des rappels de définitions et énoncés types (Jordan, Dunford, Burnside, Perron–Frobenius).</li>
+</ul>
 
 
 
