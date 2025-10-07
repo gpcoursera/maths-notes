@@ -33,6 +33,7 @@ nav:
       - Bases et dimension: algebre/bases.md
       - Déterminants: algebre/determinants.md
       - Révisions Algèbre Linéaire: algebre/revisions-algebre-lineaire.md   # <— new
+      - Théorème de la Base Incomplète: algebre/base-incomplete.md
   - Analyse:
       - Suites et séries: analyse/suites.md
   - Probabilités:

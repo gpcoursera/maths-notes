@@ -5,7 +5,7 @@ Affichage :
 $$\int_0^1 x^n\,dx=\frac{1}{n+1}\quad (n>-1).$$
 
 !!! tip "Organisation"
-    Classez vos chapitres par dossier (`algebra/`, `analysis/`, `proba/`) pour
+    Classez vos chapitres par dossier (`algebre/`, `analyse/`, `proba/`) pour
     une navigation propre.
 
 - [Algèbre linéaire](algebre/bases.md)
