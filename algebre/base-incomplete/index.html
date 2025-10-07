@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../bases/">
+        <link rel="prev" href="../revisions-algebre-lineaire/">
       
       
-        <link rel="next" href="../revisions-algebre-lineaire/">
+        <link rel="next" href="../../analyse/suites/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Déterminants - Maths Notes</title>
+        <title>Théorème de la Base Incomplète - Maths Notes</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#determinants" class="md-skip">
+        <a href="#theoreme-de-la-base-incomplete" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Déterminants
+              Théorème de la Base Incomplète
             
           </span>
         </div>
@@ -287,19 +287,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../determinants/" class="md-nav__link">
         
   
   
@@ -310,7 +301,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -343,10 +333,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../base-incomplete/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Théorème de la Base Incomplète
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -357,6 +369,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enonce-du-theoreme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Énoncé du théorème
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -535,9 +585,14 @@
 
 
 
-<h1 id="determinants">Déterminants<a class="headerlink" href="#determinants" title="Permanent link">&para;</a></h1>
-<p>Pour <span class="arithmatex">\(A\in\mathbb{R}^{n\times n}\)</span>, <span class="arithmatex">\(\det(A)\neq 0 \iff A\)</span> est inversible.<br />
-Exemple <span class="arithmatex">\(2\times2\)</span> : si <span class="arithmatex">\(A=\begin{pmatrix}a&amp;b\\c&amp;d\end{pmatrix}\)</span>, alors <span class="arithmatex">\(\det(A)=ad-bc\)</span>.</p>
+<h1 id="theoreme-de-la-base-incomplete">Théorème de la base incomplète<a class="headerlink" href="#theoreme-de-la-base-incomplete" title="Permanent link">&para;</a></h1>
+<h2 id="enonce-du-theoreme">Énoncé du théorème<a class="headerlink" href="#enonce-du-theoreme" title="Permanent link">&para;</a></h2>
+<p>Soit <span class="arithmatex">\(E\)</span> un <span class="arithmatex">\(K\)</span>-espace vectoriel, <span class="arithmatex">\(\mathcal{L} = (x₁, …, xₚ)\)</span> une famille libre de <span class="arithmatex">\(E\)</span> et <span class="arithmatex">\(\mathcal{G} = (y₁, …, y_q)\)</span> une famille génératrice de <span class="arithmatex">\(E\)</span>.</p>
+<p>Alors on peut compléter <span class="arithmatex">\(\mathcal{L}\)</span> avec certains éléments de <span class="arithmatex">\(\mathcal{G}\)</span> pour former une base de <span class="arithmatex">\(E\)</span>.</p>
+<p>Autrement dit, il existe un entier <span class="arithmatex">\(r ≥ 0\)</span> et des entiers <span class="arithmatex">\(i₁, …, iᵣ ∈ {1, …, q}\)</span> tels que
+<span class="arithmatex">\((x₁, …, xₚ, yᵢ₁, …, y_{i_q})\)</span> soit une base de <span class="arithmatex">\(E\)</span>.</p>
+<h2 id="importance">Importance<a class="headerlink" href="#importance" title="Permanent link">&para;</a></h2>
+<p>Ce théorème est très important. Il sert par exemple à démontrer que si <span class="arithmatex">\(E\)</span> est un espace vectoriel ayant une famille génératrice finie, il admet une base finie!</p>
 
 
 
