@@ -23,7 +23,7 @@
 - [**X–ENS PC 2017**](../assets/pdfs/X-ENS_2017_PC_Maths_e.pdf){ target=_blank }
 
 ### 5. Autres théorèmes fondamentaux
-- [Théorème de la **base incomplète**](algebre/base-incomplete.md)
+- [Théorème de la **base incomplète**](./base-incomplete.md)
 - Théorème du **rang**.
 - **Lemme des noyaux**.
 - Théorème de **Cayley–Hamilton**.
