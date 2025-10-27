@@ -21,7 +21,7 @@
 
 ### 4. Théorème de Perron–Frobenius
 - [**Notes Perron-Frobenius**](../assets/pdfs/Perron-Frobenius.pdf)
-- [**Développement Agreg Perron-Frobenius et Chaînes de Markov](../assets/pdfs/Perron-Frobenius-Chaines-Markov.pdf)
+- [**Développement Agreg Perron-Frobenius et Chaînes de Markov**](../assets/pdfs/Perron-Frobenius-Chaines-Markov.pdf)
 - [**X–ENS PC 2017**](../assets/pdfs/X-ENS_2017_PC_Maths_e.pdf){ target=_blank }
 - [**Mines-Ponts 2006**](../assets/pdfs/Mines-Ponts_2006_MP_Maths_1_e.pdf){ target=_blank }
 - [**Centrale 2023**](../assets/pdfs/Centrale_2023_PC_Maths_1_e.pdf){ target=_blank }
