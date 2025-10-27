@@ -706,10 +706,10 @@
 <p>Soient <span class="arithmatex">\(s \in \mathbb{N}^*\)</span> et <span class="arithmatex">\(Q_1, \dots, Q_s \in K[X]\)</span> des polynômes deux à deux premiers entre eux.<br />
 Alors :
 $$
-\ker!\big[(Q_1 \cdots Q_s)(u)\big] = \bigoplus_{i=1}^s \ker!\big(Q_i(u)\big).
+\ker\big[(Q_1 \cdots Q_s)(u)\big] = \bigoplus_{i=1}^s \ker\big(Q_i(u)\big).
 $$
 De plus, chacun des projecteurs associés à cette décomposition en somme directe est la <strong>restriction à</strong><br />
-<span class="arithmatex">\(\ker\!\big[(Q_1\cdots Q_s)(u)\big]\)</span> d’un <strong>polynôme en <span class="arithmatex">\(u\)</span></strong>.</p>
+<span class="arithmatex">\(\ker\ \big[(Q_1\cdots Q_s)(u)\big]\)</span> d’un <strong>polynôme en <span class="arithmatex">\(u\)</span></strong>.</p>
 </div>
 <hr />
 <h2 id="preuve-esquisse">Preuve (esquisse)<a class="headerlink" href="#preuve-esquisse" title="Permanent link">&para;</a></h2>
@@ -727,7 +727,7 @@ $$</p>
 <h3 id="2-surjectivite-vers-la-somme-des-noyaux">2. Surjectivité vers la somme des noyaux<a class="headerlink" href="#2-surjectivite-vers-la-somme-des-noyaux" title="Permanent link">&para;</a></h3>
 <p>Pour tout <span class="arithmatex">\(x \in \ker[(Q_1 \cdots Q_s)(u)]\)</span>, posons :
 $$
-x_i = \big<a href="x">(V_i R_i)(u)\big</a>, \quad \text{et} \quad x = \sum_{i=1}^s x_i.
+x_i = \big[(V_i R_i)(u)\big](x), \quad \text{et} \quad x = \sum_{i=1}^s x_i.
 $$</p>
 <p>Alors :
 $$
@@ -742,11 +742,11 @@ $$</p>
 <p>Si <span class="arithmatex">\((x_1, \dots, x_s) \in \prod_i \ker(Q_i(u))\)</span> et <span class="arithmatex">\(\sum_i x_i = 0\)</span>,<br />
 alors, d’après l’identité de Bézout :
 $$
-x_i = \big[(V_i R_i)(u)\big]!\Big(\sum_{j=1}^s x_j\Big) = 0.
+x_i = \big[(V_i R_i)(u)\big]\Big(\sum_{j=1}^s x_j\Big) = 0.
 $$
 La somme est donc directe :
 $$
-\ker[(Q_1 \cdots Q_s)(u)] = \bigoplus_{i=1}^s \ker(Q_i(u)).
+\ker (Q_1 \cdots Q_s)(u) = \bigoplus_{i=1}^s \ker Q_i(u).
 $$</p>
 <hr />
 <h3 id="4-projecteurs-polynomiaux-en-u">4. Projecteurs polynomiaux en <span class="arithmatex">\(u\)</span><a class="headerlink" href="#4-projecteurs-polynomiaux-en-u" title="Permanent link">&para;</a></h3>
