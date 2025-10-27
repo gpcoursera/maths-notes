@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../th-rang/">
       
       
-        <link rel="next" href="../determinants/">
+        <link rel="next" href="../../analyse/suites/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Bases et dimension - Maths Notes</title>
+        <title>Lemme des noyaux - Maths Notes</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bases-et-dimension" class="md-skip">
+        <a href="#lemme-des-noyaux" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bases et dimension
+              Lemme des noyaux
             
           </span>
         </div>
@@ -264,19 +264,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../bases/" class="md-nav__link">
         
   
   
@@ -287,7 +278,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -389,10 +379,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../lemme-noyaux/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Lemme des noyaux
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -403,6 +415,110 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enonce" class="md-nav__link">
+    <span class="md-ellipsis">
+      Énoncé
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preuve-esquisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preuve (esquisse)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Preuve (esquisse)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-bezout-sur-les-produits-partiels" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Bézout sur les produits partiels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-surjectivite-vers-la-somme-des-noyaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Surjectivité vers la somme des noyaux
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-somme-directe" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Somme directe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-projecteurs-polynomiaux-en-u" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Projecteurs polynomiaux en \(u\)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-decomposition-de-dunford-rappel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application : décomposition de Dunford (rappel)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Application : décomposition de Dunford (rappel)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idee-de-preuve" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idée de preuve
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -581,14 +697,88 @@
 
 
 
-<h1 id="bases-et-dimension">Bases et dimension<a class="headerlink" href="#bases-et-dimension" title="Permanent link">&para;</a></h1>
-<p>Un espace vectoriel <span class="arithmatex">\(E\)</span> de dimension finie possède des bases.
-<strong>Définition.</strong> Une famille <span class="arithmatex">\((e_1,\dots,e_n)\)</span> est une base si elle est libre et génératrice.</p>
-<div class="admonition note">
-<p class="admonition-title">Exemple</p>
-<p>Dans <span class="arithmatex">\(\mathbb{R}^2\)</span>, la base canonique <span class="arithmatex">\((\mathbf{e}_1,\mathbf{e}_2)\)</span>.</p>
+<h1 id="lemme-des-noyaux">Lemme des noyaux<a class="headerlink" href="#lemme-des-noyaux" title="Permanent link">&para;</a></h1>
+<p>On considère un espace vectoriel <span class="arithmatex">\(E\)</span> sur un corps commutatif <span class="arithmatex">\(K\)</span> et un endomorphisme <span class="arithmatex">\(u \in \mathcal{L}(E)\)</span>.</p>
+<hr />
+<h2 id="enonce">Énoncé<a class="headerlink" href="#enonce" title="Permanent link">&para;</a></h2>
+<div class="admonition theorem">
+<p class="admonition-title">Lemme des noyaux</p>
+<p>Soient <span class="arithmatex">\(s \in \mathbb{N}^\*\)</span> et <span class="arithmatex">\(Q_1, \dots, Q_s \in K[X]\)</span> des polynômes deux à deux premiers entre eux.<br />
+Alors :
+[
+\ker!\big[(Q_1 \cdots Q_s)(u)\big] = \bigoplus_{i=1}^s \ker!\big(Q_i(u)\big).
+]
+De plus, chacun des projecteurs associés à cette décomposition en somme directe est la <strong>restriction à</strong><br />
+<span class="arithmatex">\(\ker\!\big[(Q_1\cdots Q_s)(u)\big]\)</span> d’un <strong>polynôme en <span class="arithmatex">\(u\)</span></strong>.</p>
 </div>
-<p><strong>Propriété.</strong> Deux bases ont le même nombre d’éléments (la <strong>dimension</strong>).</p>
+<hr />
+<h2 id="preuve-esquisse">Preuve (esquisse)<a class="headerlink" href="#preuve-esquisse" title="Permanent link">&para;</a></h2>
+<h3 id="1-bezout-sur-les-produits-partiels">1. Bézout sur les produits partiels<a class="headerlink" href="#1-bezout-sur-les-produits-partiels" title="Permanent link">&para;</a></h3>
+<p>Pour <span class="arithmatex">\(k \in \{1, \dots, s\}\)</span>, on pose :
+[
+R_k = \prod_{\substack{1 \le i \le s \ i \ne k}} Q_i.
+]</p>
+<p>Les <span class="arithmatex">\(R_1, \dots, R_s\)</span> sont premiers entre eux.<br />
+Par le théorème de Bézout, il existe <span class="arithmatex">\(V_1, \dots, V_s \in K[X]\)</span> tels que :
+[
+V_1 R_1 + \cdots + V_s R_s = 1.
+]</p>
+<hr />
+<h3 id="2-surjectivite-vers-la-somme-des-noyaux">2. Surjectivité vers la somme des noyaux<a class="headerlink" href="#2-surjectivite-vers-la-somme-des-noyaux" title="Permanent link">&para;</a></h3>
+<p>Pour tout <span class="arithmatex">\(x \in \ker[(Q_1 \cdots Q_s)(u)]\)</span>, posons :
+[
+x_i = \big<a href="x">(V_i R_i)(u)\big</a>, \quad \text{et} \quad x = \sum_{i=1}^s x_i.
+]</p>
+<p>Alors :
+[
+Q_i(u)(x_i) = 0 \quad \Rightarrow \quad x_i \in \ker(Q_i(u)).
+]</p>
+<p>Ainsi :
+[
+\ker[(Q_1 \cdots Q_s)(u)] = \sum_{i=1}^s \ker(Q_i(u)).
+]</p>
+<hr />
+<h3 id="3-somme-directe">3. Somme directe<a class="headerlink" href="#3-somme-directe" title="Permanent link">&para;</a></h3>
+<p>Si <span class="arithmatex">\((x_1, \dots, x_s) \in \prod_i \ker(Q_i(u))\)</span> et <span class="arithmatex">\(\sum_i x_i = 0\)</span>,<br />
+alors, d’après l’identité de Bézout :
+[
+x_i = \big[(V_i R_i)(u)\big]!\Big(\sum_{j=1}^s x_j\Big) = 0.
+]
+La somme est donc directe :
+[
+\ker[(Q_1 \cdots Q_s)(u)] = \bigoplus_{i=1}^s \ker(Q_i(u)).
+]</p>
+<hr />
+<h3 id="4-projecteurs-polynomiaux-en-u">4. Projecteurs polynomiaux en <span class="arithmatex">\(u\)</span><a class="headerlink" href="#4-projecteurs-polynomiaux-en-u" title="Permanent link">&para;</a></h3>
+<p>Les projecteurs associés s’écrivent comme :
+[
+p_i = (V_i R_i)(u) \big|_{\ker[(Q_1 \cdots Q_s)(u)]},
+]
+ce sont donc des <strong>polynômes en <span class="arithmatex">\(u\)</span></strong>.</p>
+<hr />
+<h2 id="application-decomposition-de-dunford-rappel">Application : décomposition de Dunford (rappel)<a class="headerlink" href="#application-decomposition-de-dunford-rappel" title="Permanent link">&para;</a></h2>
+<p>Supposons que <span class="arithmatex">\(E\)</span> soit de dimension finie et que le polynôme caractéristique de <span class="arithmatex">\(u\)</span> soit scindé sur <span class="arithmatex">\(K\)</span>.<br />
+Alors il existe un <strong>unique couple</strong> <span class="arithmatex">\((d, n) \in \mathcal{L}(E)^2\)</span> tel que :</p>
+<ol>
+<li><span class="arithmatex">\(d\)</span> est diagonalisable ;  </li>
+<li><span class="arithmatex">\(n\)</span> est nilpotent ;  </li>
+<li><span class="arithmatex">\(d\)</span> et <span class="arithmatex">\(n\)</span> commutent ;  </li>
+<li><span class="arithmatex">\(d, n \in K[u]\)</span>.</li>
+</ol>
+<hr />
+<h3 id="idee-de-preuve">Idée de preuve<a class="headerlink" href="#idee-de-preuve" title="Permanent link">&para;</a></h3>
+<p>D’après Cayley–Hamilton et le lemme des noyaux, il existe des valeurs propres distinctes<br />
+<span class="arithmatex">\(\lambda_1, \dots, \lambda_s \in K\)</span> et des entiers <span class="arithmatex">\(m_1, \dots, m_s \ge 1\)</span> tels que :
+[
+E = \bigoplus_{i=1}^s \ker\big((u - \lambda_i \operatorname{Id}_E)^{m_i}\big),
+]
+avec des projecteurs <span class="arithmatex">\(p_i : E \to E\)</span> polynomiaux en <span class="arithmatex">\(u\)</span>.</p>
+<p>En posant :
+[
+d = \sum_{i=1}^s \lambda_i p_i, \qquad n = u - d,
+]
+on obtient la <strong>décomposition de Dunford</strong>.<br />
+L’unicité et les détails figurent dans <em>Gourdon, Algèbre</em>, chap. 4, §4.2.</p>
 
 
 
