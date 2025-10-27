@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../determinants/">
-      
-      
-        <link rel="next" href="../base-incomplete/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Révisions Algèbre Linéaire - Maths Notes</title>
+        <title>Théorème du rang : - Maths Notes</title>
       
     
     
@@ -64,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#revisions-dalgebre-lineaire" class="md-skip">
+        <a href="#theoreme-du-rang" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Révisions Algèbre Linéaire
+              Théorème du rang :
             
           </span>
         </div>
@@ -219,8 +215,6 @@
       
   
   
-    
-  
   
   
     
@@ -233,11 +227,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -253,7 +249,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Algèbre linéaire
@@ -310,32 +306,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Révisions Algèbre Linéaire
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../revisions-algebre-lineaire/" class="md-nav__link">
         
   
   
@@ -346,80 +320,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-reduction-des-endomorphismes" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Réduction des endomorphismes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-theoreme-de-gerstenhaber" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Théorème de Gerstenhaber
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-theoreme-de-burnside" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Théorème de Burnside
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-theoreme-de-perronfrobenius" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Théorème de Perron–Frobenius
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-autres-theoremes-fondamentaux" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Autres théorèmes fondamentaux
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#todo-liens-ressources" class="md-nav__link">
-    <span class="md-ellipsis">
-      TODO (liens &amp; ressources)
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -621,51 +521,9 @@
 
 
 
-<h1 id="revisions-dalgebre-lineaire">Révisions d’Algèbre Linéaire<a class="headerlink" href="#revisions-dalgebre-lineaire" title="Permanent link">&para;</a></h1>
-<h3 id="1-reduction-des-endomorphismes">1. Réduction des endomorphismes<a class="headerlink" href="#1-reduction-des-endomorphismes" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>[Gourdon]</strong> <em>Algèbre</em> (2ᵉ éd.), section 4.4 — Jordan / Dunford.</li>
-<li><a href="../../assets/pdfs/decomp_dunford.pdf" target="_blank"><strong>Fiche ENS Rennes : Décomposition de Dunford</strong></a></li>
-<li>Sujet <a href="../../assets/pdfs/CCINP_2021_MP_Maths_2_e.pdf" target="_blank"><strong>CCINP MP 2021</strong></a> — Décomposition de <strong>Dunford</strong>.</li>
-<li><strong>Exercices</strong> sur les décompositions de matrices/endomorphismes (<strong>LU</strong>, <strong>Jordan</strong>, <strong>SVD</strong>, etc.).</li>
-<li><strong>YouTube</strong> — vidéos de <strong>Phil Caldero</strong>.</li>
-<li><strong>[Mansuy]</strong> — (référence à compléter).</li>
-<li><strong>[Grifone]</strong> — (référence à compléter).</li>
-<li><strong>[Tauvel]</strong> — (référence à compléter).</li>
-</ul>
-<h3 id="2-theoreme-de-gerstenhaber">2. Théorème de Gerstenhaber<a class="headerlink" href="#2-theoreme-de-gerstenhaber" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Sujet <a href="../../assets/pdfs/Mines-Ponts_2020_MP_Maths_1_e.pdf" target="_blank"><strong>Mines–Ponts MP 2020</strong></a></li>
-</ul>
-<h3 id="3-theoreme-de-burnside">3. Théorème de Burnside<a class="headerlink" href="#3-theoreme-de-burnside" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="../../assets/pdfs/burnside.pdf" target="_blank"><strong>Fiche ENS Rennes : Burnside</strong></a></li>
-<li><strong>Exos Oraux X–ENS Algèbre 2</strong> — Exercices 3.8, 2.28 et 1.10.</li>
-<li><a href="../../assets/pdfs/Agreg-Interne_2021_Maths_ep1.pdf" target="_blank"><strong>Agrég. Interne 2021</strong></a></li>
-<li><strong>Sujet : Entrelacement de valeurs propres</strong>, <a href="../../assets/pdfs/X-ENS_2015_Maths_A.pdf" target="_blank"><strong>X–ENS MP 2015</strong></a></li>
-</ul>
-<h3 id="4-theoreme-de-perronfrobenius">4. Théorème de Perron–Frobenius<a class="headerlink" href="#4-theoreme-de-perronfrobenius" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="../../assets/pdfs/Perron-Frobenius.pdf"><strong>Notes Perron-Frobenius</strong></a></li>
-<li><a href="../../assets/pdfs/Perron-Frobenius-Chaines-Markov.pdf"><strong>Développement Agreg Perron-Frobenius et Chaînes de Markov</strong></a></li>
-<li><a href="../../assets/pdfs/X-ENS_2017_PC_Maths_e.pdf" target="_blank"><strong>X–ENS PC 2017</strong></a></li>
-<li><a href="../../assets/pdfs/Mines-Ponts_2006_MP_Maths_1_e.pdf" target="_blank"><strong>Mines-Ponts 2006</strong></a></li>
-<li><a href="../../assets/pdfs/Centrale_2023_PC_Maths_1_e.pdf" target="_blank"><strong>Centrale 2023</strong></a></li>
-</ul>
-<h3 id="5-autres-theoremes-fondamentaux">5. Autres théorèmes fondamentaux<a class="headerlink" href="#5-autres-theoremes-fondamentaux" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="../base-incomplete/">Théorème de la <strong>base incomplète</strong></a></li>
-<li><a href="../th-rang/">Théorème du <strong>rang</strong></a></li>
-<li><strong>Lemme des noyaux</strong>.</li>
-<li>Théorème de <strong>Cayley–Hamilton</strong>.</li>
-</ul>
-<hr />
-<h3 id="todo-liens-ressources">TODO (liens &amp; ressources)<a class="headerlink" href="#todo-liens-ressources" title="Permanent link">&para;</a></h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ajouter les liens/biblios pour <strong>Gourdon</strong>, <strong>Mansuy</strong>, <strong>Grifone</strong>, <strong>Tauvel</strong>.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Lier une liste d’exercices (LU, Jordan, SVD).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Intégrer des rappels de définitions et énoncés types (Jordan, Dunford, Burnside, Perron–Frobenius).</li>
-</ul>
+<h1 id="theoreme-du-rang">Théorème du rang :<a class="headerlink" href="#theoreme-du-rang" title="Permanent link">&para;</a></h1>
+<p>Soit <span class="arithmatex">\(u \in \mathcal{L}(E,F)\)</span> avec <span class="arithmatex">\(E\)</span> de dimension finie. Alors</p>
+<div class="arithmatex">\[dim(E) = dim ker(u)+rg(u).\]</div>
 
 
 
