@@ -10,10 +10,10 @@ On considère un espace vectoriel \(E\) sur un corps commutatif \(K\) et un endo
     Soient \(s \in \mathbb{N}^*\) et \(Q_1, \dots, Q_s \in K[X]\) des polynômes deux à deux premiers entre eux.  
     Alors :
     $$
-    \ker\!\big[(Q_1 \cdots Q_s)(u)\big] = \bigoplus_{i=1}^s \ker\!\big(Q_i(u)\big).
+    \ker\big[(Q_1 \cdots Q_s)(u)\big] = \bigoplus_{i=1}^s \ker\big(Q_i(u)\big).
     $$
     De plus, chacun des projecteurs associés à cette décomposition en somme directe est la **restriction à**  
-    \(\ker\!\big[(Q_1\cdots Q_s)(u)\big]\) d’un **polynôme en \(u\)**.
+    \(\ker\ \big[(Q_1\cdots Q_s)(u)\big]\) d’un **polynôme en \(u\)**.
 
 ---
 
@@ -38,7 +38,7 @@ $$
 
 Pour tout \(x \in \ker[(Q_1 \cdots Q_s)(u)]\), posons :
 $$
-x_i = \big[(V_i R_i)(u)\big](x), \quad \text{et} \quad x = \sum_{i=1}^s x_i.
+x_i = \big\[(V_i R_i)(u)\big\](x), \quad \text{et} \quad x = \sum_{i=1}^s x_i.
 $$
 
 Alors :
@@ -58,11 +58,11 @@ $$
 Si \((x_1, \dots, x_s) \in \prod_i \ker(Q_i(u))\) et \(\sum_i x_i = 0\),  
 alors, d’après l’identité de Bézout :
 $$
-x_i = \big[(V_i R_i)(u)\big]\!\Big(\sum_{j=1}^s x_j\Big) = 0.
+x_i = \big\[(V_i R_i)(u)\big\]\Big(\sum_{j=1}^s x_j\Big) = 0.
 $$
 La somme est donc directe :
 $$
-\ker[(Q_1 \cdots Q_s)(u)] = \bigoplus_{i=1}^s \ker(Q_i(u)).
+\ker (Q_1 \cdots Q_s)(u) = \bigoplus_{i=1}^s \ker Q_i(u).
 $$
 
 ---
