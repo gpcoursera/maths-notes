@@ -28,7 +28,7 @@
 
 ### 5. Autres théorèmes fondamentaux
 - [Théorème de la **base incomplète**](./base-incomplete.md)
-- Théorème du **rang**.
+- [Théorème du **rang**](./th-rang.md)
 - **Lemme des noyaux**.
 - Théorème de **Cayley–Hamilton**.
 
