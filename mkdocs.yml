@@ -34,6 +34,8 @@ nav:
       - Déterminants: algebre/determinants.md
       - Révisions Algèbre Linéaire: algebre/revisions-algebre-lineaire.md   # <— new
       - Théorème de la Base Incomplète: algebre/base-incomplete.md
+      - Théorème du rang: algebre/th-rang.md
+      - Lemme des noyaux: algebre/lemme-noyaux.md
   - Analyse:
       - Suites et séries: analyse/suites.md
   - Probabilités:
