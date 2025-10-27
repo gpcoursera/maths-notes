@@ -30,7 +30,7 @@
 - [Théorème de la **base incomplète**](./base-incomplete.md)
 - [Théorème du **rang**](./th-rang.md)
 - [**Lemme des noyaux**](./lemme-noyaux.md)
-- Théorème de **Cayley–Hamilton**.
+- [Théorème de **Cayley–Hamilton**](../assets/pdfs/CaylHami.pdf){ target=_blank }
 
 ---
 
