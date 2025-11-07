@@ -26,7 +26,16 @@
 - [**Mines-Ponts 2006**](../assets/pdfs/Mines-Ponts_2006_MP_Maths_1_e.pdf){ target=_blank }
 - [**Centrale 2023**](../assets/pdfs/Centrale_2023_PC_Maths_1_e.pdf){ target=_blank }
 
-### 5. Autres théorèmes fondamentaux
+### 5. Matrices symétriques et endomorphismes auto-adjoints
+- [**Mines-Ponts P' 1990***](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
+- [**X 2005 MP**](../assets/pdfs/X_2005_MP_Maths_2_e.pdf){ target=_blank }
+
+### 6. Topologie et algèbre linéaire/réduction
+- [**Fiches exos : Topologie et algèbre linéaire**](../assets/pdfs/exos-topo-matricielle.pdf){ target=_blank }
+- [**Notes Sage : Topologie matricielle**](../assets/pdfs/TopoMat.pdf){ target=_blank }
+- [**Notes Agreg ENS Rennes : Topologie des espaces de matrices**](../assets/pdfs/agreg_document_topologie_matrices.pdf){ target=_blank }
+
+### 7. Autres théorèmes fondamentaux
 - [Théorème de la **base incomplète**](./base-incomplete.md)
 - [Théorème du **rang**](./th-rang.md)
 - [**Lemme des noyaux**](./lemme-noyaux.md)
