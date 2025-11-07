@@ -27,6 +27,7 @@
 - [**Centrale 2023**](../assets/pdfs/Centrale_2023_PC_Maths_1_e.pdf){ target=_blank }
 
 ### 5. Matrices symétriques et endomorphismes auto-adjoints
+- [**Leçon 157 Agreg : Matrices symétriques et hermitiennes**](https://agreg.skyost.eu/lecons/157/){ target=_blank }
 - [**Mines-Ponts P' 1990***](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
 - [**X 2005 MP**](../assets/pdfs/X_2005_MP_Maths_2_e.pdf){ target=_blank }
 
