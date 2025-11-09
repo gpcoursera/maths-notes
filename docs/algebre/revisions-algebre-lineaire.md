@@ -7,8 +7,6 @@
 - **Exercices** sur les décompositions de matrices/endomorphismes (**LU**, **Jordan**, **SVD**, etc.).
 - **YouTube** — vidéos de **Phil Caldero**.
 - **[Mansuy]** — (référence à compléter).
-- **[Grifone]** — (référence à compléter).
-- **[Tauvel]** — (référence à compléter).
 
 ### 2. Théorème de Gerstenhaber
 - Sujet [**Mines–Ponts MP 2020**](../assets/pdfs/Mines-Ponts_2020_MP_Maths_1_e.pdf){ target=_blank }
@@ -43,7 +41,12 @@
 - [Théorème de **Cayley–Hamilton**](../assets/pdfs/CaylHami.pdf){ target=_blank }
 
 ---
-
+### Références générales
+- ENS Rennes : [**Cours d'Algèbre Linéaire et Bilinéaire**](../assets/pdfs/AL3.pdf){ target=_blank }
+- P. Caldero (Lyon I) : [**Voyage en Algébrie**](../assets/pdfs/Voyage-en-Algebrie.pdf){ target=_blank }
+- **[Grifone]** — Algèbre Linéaire - Cépaduès - 7e édition.
+- **[Tauvel]** — Algèbre linéaire - Calvage & Mounet.
+---
 ### TODO (liens & ressources)
 - [ ] Ajouter les liens/biblios pour **Gourdon**, **Mansuy**, **Grifone**, **Tauvel**.
 - [ ] Lier une liste d’exercices (LU, Jordan, SVD).
