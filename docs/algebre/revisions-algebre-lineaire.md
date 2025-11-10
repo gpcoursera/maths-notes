@@ -26,9 +26,15 @@
 
 ### 5. Matrices symétriques et endomorphismes auto-adjoints
 - [**Leçon 157 Agreg : Matrices symétriques et hermitiennes**](https://agreg.skyost.eu/lecons/157/){ target=_blank }
-- [**Mines-Ponts P' 1990***](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
+#### Résultats importants et développements
+- Algorithme de Gauss
+- Théorème : critère de Sylvester
+- Théorème spectral
+- Décompostion polaire
+#### Sujets de concours
+- [**Mines-Ponts P' 1990**](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
 - [**X 2005 MP**](../assets/pdfs/X_2005_MP_Maths_2_e.pdf){ target=_blank }
-
+- Matrices symétriques positives, ordre de Löwner, fonctions matriciellement croissantes [**Mines-Ponts 2006 PSI**](../assets/pdfs/Mines-Ponts_2006_PSI_Maths_2_e.pdf){ target=_blank }
 ### 6. Topologie et algèbre linéaire/réduction
 - [**Fiches exos : Topologie et algèbre linéaire**](../assets/pdfs/exos-topo-matricielle.pdf){ target=_blank }
 - [**Notes Sage : Topologie matricielle**](../assets/pdfs/TopoMat.pdf){ target=_blank }
