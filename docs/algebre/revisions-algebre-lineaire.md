@@ -32,7 +32,7 @@
 - Théorème spectral
 - Décompostion polaire
 #### Exercices types oraux CPGE/Agrég.
-— Décomposition polaire
+- Décomposition polaire
 
 Soient :
 
@@ -50,8 +50,7 @@ On considère l’application :
 
 **Montrer que** \( \varphi \) **est une bijection.**
 
----
- — Exponentielle des matrices symétriques
+- Exponentielle des matrices symétriques
 
 Montrer l’homéomorphisme :
 \[
@@ -61,8 +60,7 @@ où :
 - \( S_n(\mathbb{R}) \) désigne l’ensemble des **matrices symétriques réelles**,  
 - \( S_n^{++}(\mathbb{R}) \) celui des **matrices symétriques définies positives** réelles.
 
----
- — Compacité du groupe orthogonal
+- Compacité du groupe orthogonal
 
 Montrer que le **groupe orthogonal** :
 \[
@@ -72,8 +70,7 @@ est **compact**.
 
 *Indication :* montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
 
----
- — Théorème spectral
+- Théorème spectral
 
 Montrer le **théorème spectral** :
 
@@ -84,14 +81,6 @@ Autrement dit, il existe une matrice orthogonale \( P \in O_n(\mathbb{R}) \) tel
 {}^t P A P = D,
 \]
 où \( D \) est diagonale réelle.
-
----
-
-**Thèmes associés :**
-- Matrices symétriques et définies positives  
-- Groupes orthogonaux et unitaires  
-- Diagonalisation et formes quadratiques  
-- Décomposition polaire et exponentielle matricielle
 
 #### Sujets de concours
 - Sylvester. [**CCINP MP 2024**](../assets/pdfs/CCINP_2024_MP_Maths_2_e.pdf){ target=_blank }
