@@ -33,7 +33,7 @@
 - Décompostion polaire
 #### Exercices types oraux CPGE/Agrég.
 ##### Ex 1. Décomposition polaire
-
+<div class="exo-maths">
 Soient : \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
   \(
   O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
@@ -46,6 +46,9 @@ On considère l’application :
 \)
 
 **Montrer que** \( \varphi \) **est une bijection.**
+</div>
+
+
 
 ##### Ex 2. Exponentielle des matrices symétriques
 
@@ -67,7 +70,7 @@ est **compact**.
 
 *Indication :* montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
 
-##### Ex 4. Théorème spectral
+##### Ex4. Théorème spectral
 
 Montrer le **théorème spectral** :
 

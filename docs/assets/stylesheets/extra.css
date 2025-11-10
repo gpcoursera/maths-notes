@@ -1,0 +1,8 @@
+.exo-maths {
+  font-family: "STIX Two Text", "Latin Modern Math", "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.exo-maths .katex {
+  font-family: "STIX Two Math", "Latin Modern Math", serif !important;
+}
