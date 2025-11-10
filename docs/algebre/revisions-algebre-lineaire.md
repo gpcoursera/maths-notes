@@ -6,6 +6,7 @@
 - Sujet [**CCINP MP 2021**](../assets/pdfs/CCINP_2021_MP_Maths_2_e.pdf){ target=_blank } — Décomposition de **Dunford**.
 - **Exercices** sur les décompositions de matrices/endomorphismes (**LU**, **Jordan**, **SVD**, etc.).
 - **YouTube** — vidéos de **Phil Caldero**.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=d2hBjv69IaoJUG39&amp;list=PLI-uIUgbJUl6srxnzN-jumwbXG4RTGXuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - **[Mansuy]** — (référence à compléter).
 
 ### 2. Théorème de Gerstenhaber
