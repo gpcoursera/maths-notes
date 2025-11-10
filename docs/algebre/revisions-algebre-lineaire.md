@@ -36,11 +36,11 @@
 
 Soient :
 
-- \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
+* \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
   \(
   O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
   \)
-- \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
+* \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
 
 On considère l’application :
 \(
