@@ -32,15 +32,12 @@
 - Théorème spectral
 - Décompostion polaire
 #### Exercices types oraux CPGE/Agrég.
-1. Décomposition polaire
+##### Ex 1. Décomposition polaire
 
-Soient :
-
-* \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
+Soient : \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
   \(
   O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
-  \)
-* \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
+  \) et \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
 
 On considère l’application :
 \(
@@ -50,7 +47,7 @@ On considère l’application :
 
 **Montrer que** \( \varphi \) **est une bijection.**
 
-2. Exponentielle des matrices symétriques
+##### Ex 2. Exponentielle des matrices symétriques
 
 Montrer l’homéomorphisme :
 \(
@@ -60,7 +57,7 @@ où :
 - \( S_n(\mathbb{R}) \) désigne l’ensemble des **matrices symétriques réelles**,  
 - \( S_n^{++}(\mathbb{R}) \) celui des **matrices symétriques définies positives** réelles.
 
-3. Compacité du groupe orthogonal
+##### Ex 3. Compacité du groupe orthogonal
 
 Montrer que le **groupe orthogonal** :
 \(
@@ -70,7 +67,7 @@ est **compact**.
 
 *Indication :* montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
 
-4. Théorème spectral
+##### Ex 4. Théorème spectral
 
 Montrer le **théorème spectral** :
 
