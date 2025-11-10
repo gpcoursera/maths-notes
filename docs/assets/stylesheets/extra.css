@@ -1,8 +1,35 @@
+/* Style général des exercices de maths */
 .exo-maths {
-  font-family: "STIX Two Text", "Latin Modern Math", "Times New Roman", serif;
-  font-size: 0.90rem;
-  line-height: 1.6;
+  font-family: "Inter", "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  background: var(--md-default-bg-color--light);
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding: 0.8em 1em;
+  margin: 1.2em 0;
+  border-radius: 6px;
 }
+
+/* Activation correcte du bold et de l'italique */
+.exo-maths strong {
+  font-weight: 600;
+}
+
+.exo-maths em {
+  font-style: italic;
+}
+
+/* Amélioration du rendu KaTeX dans ce contexte */
 .exo-maths .katex {
-  font-family: "STIX Two Math", "Latin Modern Math", serif !important;
+  font-family: "KaTeX_Main", "Roboto", "Inter", sans-serif !important;
+  font-size: 1.02em;
+}
+
+/* Optionnel : couleurs pour un rendu plus doux en dark mode */
+@media (prefers-color-scheme: dark) {
+  .exo-maths {
+    background: rgba(255, 255, 255, 0.05);
+    border-left-color: var(--md-accent-fg-color);
+  }
 }
