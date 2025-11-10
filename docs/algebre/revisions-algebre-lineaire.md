@@ -32,6 +32,8 @@
 - Théorème : critère de Sylvester
 - Théorème spectral
 - Décompostion polaire
+- Cours YouTube Agrég. Formes Quadratiques :
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=f9mFU4aFu6KuB3yK&amp;list=PLCNbUogs81St-I0zfpjhYJ0MFohgfK-uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 #### Exercices types oraux CPGE/Agrég.
 ##### Ex 1. Décomposition polaire
 <div class="exo-maths">
