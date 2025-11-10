@@ -1,0 +1,41 @@
+/* Bloc d'exercice (compact, sans-serif moderne, gras activé) */
+.md-typeset .exo-maths {
+  font-family: "Inter", "Noto Sans", "Roboto Flex", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  background: var(--md-default-bg-color--light);
+  border-left: 2px solid rgba(0, 0, 0, 0.85);  padding: 0rem 1rem;
+  margin: 1.2rem 0;
+  /* border-radius: 6px; */
+  color: var(--md-typeset-color);
+}
+
+/* Force la reconnaissance du gras et italique */
+.md-typeset .exo-maths strong {
+  font-weight: 700 !important;
+}
+
+.md-typeset .exo-maths em {
+  font-style: italic !important;
+}
+
+/* Rendre le rendu KaTeX plus cohérent avec la police Inter/Noto */
+.md-typeset .exo-maths .katex {
+  font-size: 1.02em;
+  font-family: "Noto Sans Math", "KaTeX_Main", "Inter", sans-serif !important;
+  font-weight: 400;
+}
+
+/* Espacements internes plus homogènes */
+.md-typeset .exo-maths p {
+  margin: 0.4rem 0;
+}
+
+/* Mode sombre : contraste doux */
+@media (prefers-color-scheme: dark) {
+  .md-typeset .exo-maths {
+    background: rgba(255, 255, 255, 0.06);
+    border-left-color: #6699ff;
+  }
+}

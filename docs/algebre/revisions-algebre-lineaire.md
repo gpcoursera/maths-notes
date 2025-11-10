@@ -34,54 +34,53 @@
 #### Exercices types oraux CPGE/Agrég.
 ##### Ex 1. Décomposition polaire
 <div class="exo-maths">
-Soient : \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
-  \(
-  O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
-  \) et \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
+Soient : \(
+O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
+\) le <b>groupe orthogonal</b>
+   et \( S_n^{++}(\mathbb{R}) \) l’ensemble des <b>matrices symétriques définies positives</b>.
 
 On considère l’application :
 \(
 \varphi : O_n(\mathbb{R}) \times S_n^{++}(\mathbb{R}) \longrightarrow GL_n(\mathbb{R}),
 \quad (O,S) \longmapsto OS.
 \)
-
-**Montrer que** \( \varphi \) **est une bijection.**
+<p>
+Montrer que \( \varphi \) est une bijection.
 </div>
-
-
-
 ##### Ex 2. Exponentielle des matrices symétriques
-
+<div class="exo-maths">
 Montrer l’homéomorphisme :
 \(
 \exp : S_n(\mathbb{R}) \longrightarrow S_n^{++}(\mathbb{R}),
 \)
 où :
-- \( S_n(\mathbb{R}) \) désigne l’ensemble des **matrices symétriques réelles**,  
-- \( S_n^{++}(\mathbb{R}) \) celui des **matrices symétriques définies positives** réelles.
-
+<ul>
+<li>\( S_n(\mathbb{R}) \) désigne l’ensemble des <b>matrices symétriques réelles</b>,</li>
+<li>\( S_n^{++}(\mathbb{R}) \) celui des <b>matrices symétriques définies positives</b> réelles.</li>
+</ul>
+</div>
 ##### Ex 3. Compacité du groupe orthogonal
-
-Montrer que le **groupe orthogonal** :
+<div class="exo-maths">
+Montrer que le <b>groupe orthogonal</b> :
 \(
 O_n(\mathbb{R}) = \{\, M \in GL_n(\mathbb{R}) \mid {}^t M M = I_n \,\}
 \)
-est **compact**.
-
-*Indication :* montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
-
+est <b>compact</b>.
+<p>
+<i>Indication</i> : montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
+</div>
 ##### Ex4. Théorème spectral
+<div class="exo-maths">
+Montrer le <b>théorème spectral</b> :
 
-Montrer le **théorème spectral** :
-
-> Si \( A \) est une **matrice symétrique réelle**, alors elle est **diagonalisable sur** \( \mathbb{R} \).
-
-Autrement dit, il existe une matrice orthogonale \( P \in O_n(\mathbb{R}) \) telle que :
+Si \( A \) est une <b>matrice symétrique réelle</b>, alors elle est <b>diagonalisable sur</b> \( \mathbb{R} \).
+<p>
+<i>Autrement dit, il existe une matrice orthogonale</i> \( P \in O_n(\mathbb{R}) \) <i>telle que :</i>
 \(
 {}^t P A P = D,
 \)
-où \( D \) est diagonale réelle.
-
+<i>où</i> \( D \) <i>est diagonale réelle</i>.
+</div>
 #### Sujets de concours
 1. Sylvester. [**CCINP MP 2024**](../assets/pdfs/CCINP_2024_MP_Maths_2_e.pdf){ target=_blank }
 2. Théorème spectral et séries entières. [**X-ENS 2023 MP Maths B**](../assets/pdfs/X-ENS_2023_MP-MPI_Maths_B_e.pdf){ target=_blank }
