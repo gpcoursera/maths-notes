@@ -32,63 +32,63 @@
 - Théorème spectral
 - Décompostion polaire
 #### Exercices types oraux CPGE/Agrég.
-- Décomposition polaire
+1. Décomposition polaire
 
 Soient :
 
 - \( O_n(\mathbb{R}) \) le **groupe orthogonal** :
-  \[
+  \(
   O_n(\mathbb{R}) = \{\, M \in M_n(\mathbb{R}) \mid {}^t M M = I_n \,\},
-  \]
+  \)
 - \( S_n^{++}(\mathbb{R}) \) l’ensemble des **matrices symétriques définies positives**.
 
 On considère l’application :
-\[
+\(
 \varphi : O_n(\mathbb{R}) \times S_n^{++}(\mathbb{R}) \longrightarrow GL_n(\mathbb{R}),
 \quad (O,S) \longmapsto OS.
-\]
+\)
 
 **Montrer que** \( \varphi \) **est une bijection.**
 
-- Exponentielle des matrices symétriques
+2. Exponentielle des matrices symétriques
 
 Montrer l’homéomorphisme :
-\[
+\(
 \exp : S_n(\mathbb{R}) \longrightarrow S_n^{++}(\mathbb{R}),
-\]
+\)
 où :
 - \( S_n(\mathbb{R}) \) désigne l’ensemble des **matrices symétriques réelles**,  
 - \( S_n^{++}(\mathbb{R}) \) celui des **matrices symétriques définies positives** réelles.
 
-- Compacité du groupe orthogonal
+3. Compacité du groupe orthogonal
 
 Montrer que le **groupe orthogonal** :
-\[
+\(
 O_n(\mathbb{R}) = \{\, M \in GL_n(\mathbb{R}) \mid {}^t M M = I_n \,\}
-\]
+\)
 est **compact**.
 
 *Indication :* montrer que \( O_n(\mathbb{R}) \) est un sous-ensemble fermé et borné de \( M_n(\mathbb{R}) \).
 
-- Théorème spectral
+4. Théorème spectral
 
 Montrer le **théorème spectral** :
 
 > Si \( A \) est une **matrice symétrique réelle**, alors elle est **diagonalisable sur** \( \mathbb{R} \).
 
 Autrement dit, il existe une matrice orthogonale \( P \in O_n(\mathbb{R}) \) telle que :
-\[
+\(
 {}^t P A P = D,
-\]
+\)
 où \( D \) est diagonale réelle.
 
 #### Sujets de concours
-- Sylvester. [**CCINP MP 2024**](../assets/pdfs/CCINP_2024_MP_Maths_2_e.pdf){ target=_blank }
-- Théorème spectral et séries entières. [**X-ENS 2023 MP Maths B**](../assets/pdfs/X-ENS_2023_MP-MPI_Maths_B_e.pdf){ target=_blank }
-- [**Mines-Ponts P' 1990**](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
-- Étude de certaines matrices symétriques réelles. [**X 2005 MP**](../assets/pdfs/X_2005_MP_Maths_2_e.pdf){ target=_blank }
-- Décomposition polaire et applications. [**Centrale 2013 MP Maths**](../assets/pdfs/Centrale_2013_MP_Maths_2_e.pdf){ target=_blank }
-- Matrices symétriques positives, ordre de Löwner, fonctions matriciellement croissantes. [**Mines-Ponts 2006 PSI**](../assets/pdfs/Mines-Ponts_2006_PSI_Maths_2_e.pdf){ target=_blank }
+1. Sylvester. [**CCINP MP 2024**](../assets/pdfs/CCINP_2024_MP_Maths_2_e.pdf){ target=_blank }
+2. Théorème spectral et séries entières. [**X-ENS 2023 MP Maths B**](../assets/pdfs/X-ENS_2023_MP-MPI_Maths_B_e.pdf){ target=_blank }
+3. [**Mines-Ponts P' 1990**](../assets/pdfs/Mines-Ponts_1990_P_Maths_2_ea.pdf){ target=_blank }
+4. Étude de certaines matrices symétriques réelles. [**X 2005 MP**](../assets/pdfs/X_2005_MP_Maths_2_e.pdf){ target=_blank }
+5. Décomposition polaire et applications. [**Centrale 2013 MP Maths**](../assets/pdfs/Centrale_2013_MP_Maths_2_e.pdf){ target=_blank }
+6. Matrices symétriques positives, ordre de Löwner, fonctions matriciellement croissantes. [**Mines-Ponts 2006 PSI**](../assets/pdfs/Mines-Ponts_2006_PSI_Maths_2_e.pdf){ target=_blank }
 ### 6. Topologie et algèbre linéaire/réduction
 - [**Fiches exos : Topologie et algèbre linéaire**](../assets/pdfs/exos-topo-matricielle.pdf){ target=_blank }
 - [**Notes Sage : Topologie matricielle**](../assets/pdfs/TopoMat.pdf){ target=_blank }
